@@ -1,0 +1,74 @@
+/*html {
+ 	background: url(images/sky.gif) no-repeat center center fixed;
+  	-webkit-background-size: cover; q
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}*/
+
+body{
+	padding:0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+  background-color: lightblue;
+}
+.h1{
+  background-color: green;
+	font-family: Ariel;
+	text-align: center;
+	margin-top: 10px;
+  padding-top: 15px;
+}
+
+h1{
+  background-color: green;
+	font-family: Ariel;
+	text-align: center;
+	margin-top: 10px;
+  padding-top: 15px;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
