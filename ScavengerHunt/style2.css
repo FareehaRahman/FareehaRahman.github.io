@@ -1,0 +1,18 @@
+html, body {
+  margin: 0;
+}
+
+canvas {
+  display: block;
+}
+
+h1 {
+  font-size: 20vmin;
+  text-shadow: 4px 4px 2px white;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
