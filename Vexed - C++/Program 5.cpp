@@ -4,7 +4,7 @@
 //     board is clear, play advances to the next level.
 //
 //  Prog 5: Vexed with Graphics
-//  Author: Dale Reed
+//  Author: Fareeha Rahman
 //  Using Codio, for UIC CS 141, Fall 2019
 // 
 // Instructions:
